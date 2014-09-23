@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #2c3e50;
+}
+
+.cover{
+	margin: auto;
+	max-width: 1000px;
+	width: 90%;
+}
+
+.cover h1{
+	color: #2ecc71;
+	font-family: 'Gloria+Hallelujah', cursive;
+	font-size: 2.5em;
+	margin: 1em 0;
+}
+
+.cover p{
+	color: #fff;
+	font-family: 'PT+Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+.page{
+	margin: 20px 0;
+}
+
+.page ul{
+	list-style: none;
+	text-align: center;
+}
+
+.page ul li{
+	display: inline-block;
+	margin-right: 10px;S
+}
+
+.page ul li a{
+	background-color: #10945b;
+	border-bottom: solid 2px #fff;
+	color: #fff;
+	display: block;
+	padding: 12px 22px;
+	text-decoration: none;
+}
+
+.page ul li a:hover{
+	background-color: #26d85e;
+	border: 0;
+	box-shadow: 0px 0px 5px #34495e;
+	padding: 11px 21px;
+}
+
+.page ul li .active{
+	background-color: #26d85e;
+	font-weight: bold;
+}
